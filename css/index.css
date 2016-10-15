@@ -154,8 +154,7 @@ h1
     text-shadow: 3px 7px 3px black;
     text-align: center;
     line-height: 50px;
-    /*max-width: 1000px;*/
-    /*margin-bottom: 40px;*/
+
 }
 h3
 {
@@ -169,16 +168,18 @@ h3
 #about
 {
 
-    /*background-color: rgba(255,0,128,0.7);*/
-    background: url(img/2.jpg)no-repeat center center;
+    background: url(../img/banner.jpg)no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
     color: white;
-    padding: 20px 50px;
+    
+
 
 }
 #about .overlay
 {
-    background-color: rgba(255,0,128,0.7);
-    /*padding: 70px 0 40px;*/
+    background-color: rgba(255,0,128,0.6);
+    padding: 20px 50px;
 }
 
 .img-circle
@@ -188,7 +189,7 @@ h3
     margin: 30px;
 }
 
-.about-block h2
+.about-block-1 h2
 {
     font-size: 35px;
     text-transform: uppercase;
@@ -228,6 +229,118 @@ h3
     font-size: 30px;
     text-shadow: 1px 1px 2px white;
     padding: 10px 0;
-    /*text-align: center;*/
+
 }
 
+.hobbies-block
+{
+     padding: 20px 50px;
+     margin-top: 30px;
+}
+h2.gray.caption
+{
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    color: #888;
+}
+.hobbies-information
+{
+    font-size: 20px;
+    text-shadow: 1px 1px 2px white;
+    text-align: justify;
+    padding: 10px 0px 10px;
+    line-height: 30px;
+    color: #888;
+}
+.divider-gray
+{
+    text-align: left;
+    display: inline-block;
+	width: 300px;
+	height: 2px;
+	background: #888;
+}
+.hobbies-img-block
+{
+    margin: 60px;
+    padding: 15px;
+}
+
+.img-responsive
+{
+    margin: 25px;
+    border-radius: 25%;
+    box-shadow: 0 1px 20px rgba(0,0,0,0.9);
+}
+#fragment-parallax
+{
+    background: url(../img/banner.jpg) center center;
+    background-attachment: fixed;
+    height: 450px;
+}
+
+#fragment-parallax .overlay
+{
+    /*background-color: rgba(255,0,128,0.6);*/
+    height: 450px;
+    background: url(../img/slide_bg.png);
+}
+/*#fragment-parallax .overlay > .overlay-2*/
+/*{*/
+/*    background: url(../img/slide_bg.png);*/
+/*    height: 450px;*/
+/*}*/
+
+#follow
+{
+    font-size: 35px;    
+    margin-top: 80px;
+    color:white;
+    text-shadow: 1px 1px 1px white;
+}
+.social-button
+{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.social-button > li:hover
+{
+    color: rgba(255,0,128,0.6);
+}
+.social-button > li
+{
+    padding: 80px 40px;
+}
+.contacts
+{
+    color: #888;
+    text-shadow: 1px 0px 0.5px black;
+}
+
+.input-field
+{
+    margin: 20px 5px 20px;
+}
+
+.contacts-block
+{
+    padding: 20px 50px;
+    margin-top: 30px;
+}
+
+input[type],textarea
+{
+    width: 80%;
+    margin-top: 10px;
+}
+textarea
+{
+    height: 20vh;
+}
+.contact-details
+{
+    margin: 20px 5px 20px;
+}
