@@ -40,7 +40,7 @@
                     <!--logo -->
 
                     <h1 class="navbar-brand">
-                        <a href="">Olena Maherovska</a>
+                        <a href="#myCarousel" class="smooth">Olena Maherovska</a>
                     </h1>
 
                     <!--/logo -->
@@ -50,7 +50,7 @@
                 <nav class="collapse navbar-collapse navbar-right" id="pointer">
                     <ul id="nav" class="nav navbar-nav">
 
-                        <li><a href="" class="smooth">Home</a></li>
+                        <li><a href="#myCarousel" class="smooth">Home</a></li>
                         <li><a href="#about" class="smooth">About</a></li>
                         <li><a href="#hobbies" class="smooth">Hobbies</a></li>
                         <li><a href="#contacts" class="smooth">Contacts</a></li>
@@ -77,13 +77,20 @@
         <div class="carousel-inner" role="listbox">
 
             <div class="item active">
-                <img src="img/banner.jpg" alt="photo" class="bg-img  img-responsive" >
-                <div class="carousel-caption text-center">
-                    <h1 class="wow animated fadeInDown hidden-xs">Ready to create perfect web-content and impress you</h1>
-                    <h3 class="wow animated fadeInDown">Front-end developer</h3>
-                    <!--<a class="waves-effect waves-light btn-large" href="#">Read more</a>-->
-                    <a href="#about" class="btn btn-blue btn-effect">Read more</a>
-                </div>
+                <img src="img/banner.jpg" alt="photo" class="bg-img  img-responsive">
+   
+            
+               
+                        <div class="carousel-caption text-center">
+
+                            <h1 class="wow animated fadeInDown hidden-xs">Ready to create perfect web-content and impress you</h1>
+                            <h3 class="wow animated fadeInDown">Front-end developer</h3>
+                            <!--<a class="waves-effect waves-light btn-large" href="#">Read more</a>-->
+                            <a href="#about" class="btn btn-blue btn-effect smooth wow animated bounce">Read more</a>
+                        </div>
+                       
+           
+                
             </div>
 
             <div class="item">
@@ -92,7 +99,7 @@
                     <h1 class="hidden-xs">Ready to create perfect web-content and impress you</h1>
                     <h3>Front-end developer</h3>
                     <!--<a class="waves-effect waves-light btn-large" href="#">Read more</a>-->
-                    <a href="#" class="btn btn-blue btn-effect">Read more</a>
+                    <a href="#about" class="btn btn-blue btn-effect smooth">Read more</a>
                 </div>
             </div>
 
@@ -102,7 +109,7 @@
                     <h1 class="hidden-xs">Ready to create perfect web-content and impress you</h1>
                     <h3>Front-end developer</h3>
                     <!--<a class="waves-effect waves-light btn-large" href="#">Read more</a>-->
-                    <a href="#" class="btn btn-blue btn-effect">Read more</a>
+                    <a href="#about" class="btn btn-blue btn-effect smooth">Read more</a>
                 </div>
             </div>
 
@@ -112,7 +119,7 @@
                     <h1 class="hidden-xs">Ready to create perfect web-content and impress you</h1>
                     <h3>Front-end developer</h3>
                     <!--<a class="waves-effect waves-light btn-large" href="#">Read more</a>-->
-                    <a href="#" class="btn btn-blue btn-effect">Read more</a>
+                    <a href="#about" class="btn btn-blue btn-effect smooth">Read more</a>
                 </div>
             </div>
         </div>
@@ -138,20 +145,19 @@
                     <div class="about-block-1 wow animated fadeInLeft">
                         <h2>About me</h2>
                         <div class="divider wow animated fadeInUp"></div>
-                        <div class="about-information">
-                            Hello everybody! I'm Olena Maherovska and I'm a student of the faculty of applied mathematics and informatics.I'm young, fun and ambitious lady, who is interested in programming and modern technologies. Ready to face barriers and able to learn as well
-                            as implement new aspects of web programming.
+                        <div class="about-information wow animated lightSpeedIn">
+                            Hello everybody! I'm Olena Maherovska and I'm a student of the faculty of applied mathematics and informatics.I'm young, fun and ambitious lady, who is interested in programming and modern technologies. Ready to face barriers and able to learn as well as implement new aspects of web programming.
                         </div>
                     </div>
 
-                    <div class="images-block">
+                    <div class="row">
                         <div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated fadeInUp">
                             <img src="img/olena1.png" alt="olena_photo" class="img-circle">
                             <h3 class="img-caption wow animated fadeInUp">RESPONSIBLE</h3>
                         </div>
                         <div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated fadeInDown">
                             <img src="img/olena2.png" alt="olena_photo" class="img-circle">
-                            <h3 class="img-caption wow animated fadeInUp">CREATIVE</h3>
+                            <h3 class="img-caption wow animated fadeInDown ">CREATIVE</h3>
                         </div>
                         <div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated fadeInUp">
                             <img src="img/olena3.png" alt="olena_photo" class="img-circle">
@@ -159,18 +165,18 @@
                         </div>
                         <div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated fadeInDown">
                             <img src="img/olena4.png" alt="olena_photo" class="img-circle">
-                            <h3 class="img-caption wow animated fadeInUp">SINGLE-MINDED</h3>
+                            <h3 class="img-caption wow animated fadeInDown">SINGLE-MINDED</h3>
                         </div>
                     </div>
 
-                    <div class="about-block-2 wow animated fadeInUp">
-                        <div class="about-information">
+                    <div class="about-block-2 wow animated lightSpeedIn">
+                        <div class="about-information ">
                             <br><br>Have an experience in :
                             <br> - C++
                             <br> - C#
                             <br> - HTML
                             <br> - CSS
-                            <br> - Javascript
+                            <br> - JavaScript
                             <br> - Adobe Photoshop
                         </div>
                     </div>
@@ -178,58 +184,53 @@
             </div>
         </div>
     </section>
-    <br>
-    <br>
-    <br>
-    <br>
 
 
     <section id="hobbies">
         <div class="container-fluid">
             <div class="row">
-                <div class="hobbies-block wow animated fadeInLeft">
-                    <h2 class="gray caption">Hobbies</h2>
+                <div class="hobbies-block">
+                    <h2 class="gray caption wow animated fadeInLeft">Hobbies</h2>
                     <div class="divider-gray wow animated fadeInUp"></div>
-                    <div class="hobbies-information">
-                        My hobby is Ukrainian dance. I've dedicated it 12 years of my life and it give me a chance to see more than 23 countries!That was amazing feelings and I hope that dance wouldn't let me go as long as possible! I also like cooking , especially sweets, travelling
-                        around the world and meeting with new people.My new hobbie is skiing.It doesn't compare with anything,when the strong wind ,which is blowing in your face makes you happy! Fantastic feeling!
+                    <div class="hobbies-information wow animated lightSpeedIn">
+                        My hobby is Ukrainian dance. I've dedicated it 12 years of my life and it give me a chance to see more than 23 countries!That was amazing feelings and I hope that dance wouldn't let me go as long as possible! I also like cooking , especially sweets, travelling around the world and meeting with new people.My new hobbie is skiing.It doesn't compare with anything,when the strong wind,which is blowing in your face makes you happy! Fantastic feeling!
                     </div>
 
-                    <div class="hobbies-img-block">
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow animated bounceIn">
                             <img src="../img/hobbies/1.jpg" class="img-responsive hob" alt="hobbies">
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow animated bounceIn">
                             <img src="../img/hobbies/2.jpg" class="img-responsive hob " alt="hobbies">
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow animated bounceIn">
                             <img src="../img/hobbies/3.JPG" class="img-responsive hob" alt="hobbies">
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow animated bounceIn">
                             <img src="../img/hobbies/4.JPG" class="img-responsive hob" alt="hobbies">
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow animated bounceIn">
                             <img src="../img/hobbies/5.jpg" class="img-responsive hob" alt="hobbies">
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow animated bounceIn">
                             <img src="../img/hobbies/6.jpg" class="img-responsive hob" alt="hobbies">
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow animated bounceIn">
                             <img src="../img/hobbies/7.jpg" class="img-responsive hob" alt="hobbies">
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow animated bounceIn">
                             <img src="../img/hobbies/8.jpg" class="img-responsive hob" alt="hobbies">
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow animated bounceIn">
                             <img src="../img/hobbies/9.jpg" class="img-responsive hob" alt="hobbies">
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow animated bounceIn">
                             <img src="../img/hobbies/10.jpg" class="img-responsive hob" alt="hobbies">
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow animated bounceIn">
                             <img src="../img/hobbies/11.jpg" class="img-responsive hob" alt="hobbies">
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow animated bounceIn">
                             <img src="../img/hobbies/12.jpg" class="img-responsive hob" alt="hobbies">
                         </div>
                     </div>
@@ -268,8 +269,9 @@
 
     <section id="contacts">
         <div class="container-fluid">
+            <div class="row">
             <div class="contacts-caption">
-                <h2 class="gray caption">Contacts</h2>
+                <h2 class="gray caption wow animated fadeInLeft">Contacts</h2>
                 <div class="divider-gray wow animated fadeInUp"></div>
                 <h4 class="contacts">Leave a message</h4>
             </div>
@@ -299,7 +301,7 @@
                         </div>
 
                         <label for="submit" class="contacts"></label>
-                        <button type="submit" id="submit" class="btn btn-blue btn-effect" >Send</button>
+                        <button type="submit" id="submit" class="btn btn-blue btn-effect  wow animated wobble">Send</button>
                         <br>
                         <br>
                         <br>
@@ -311,7 +313,7 @@
 								<br>
 								<br>
 							
-								<p><i class="fa fa-phone" ></i> Phone: 093-13-19-47</p>
+								<p><i class="fa fa-phone" ></i> Phone: 093-130-19-47</p>
 								<br>
 						
 								<p><i class="fa fa-phone"></i> Phone: 067-514-87-11</p>
@@ -321,48 +323,49 @@
 					</address>
                 </div>
             </div>
+            </div>       
         </div>
     </section>
 
 
     <section id="map">
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d82343.80963945303!2d23.96176510338902!3d49.83787171211628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add7c09109a57%3A0x4223c517012378e2!2z0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGM!5e0!3m2!1suk!2sua!4v1476532758125"
+        <iframe class="wow animated rotateIn" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d82343.80963945303!2d23.96176510338902!3d49.83787171211628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add7c09109a57%3A0x4223c517012378e2!2z0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGM!5e0!3m2!1suk!2sua!4v1476532758125"
             width="600" height="450" style="border:0" allowfullscreen></iframe>
 
     </section>
-    
+
     <footer id="footer">
         <div class="overlay">
             <div class="container-fluid">
                 <div class="row text-center footer-content">
 
-                <ul class="footer-button">
-                
-                    <li class="wow animated zoomIn"><i class="fa fa-instagram fa-2x"></i></li>
-                    <li class="wow animated zoomIn"><i class="fa fa-github fa-2x"></i></li>
-                    <li class="wow animated zoomIn"><i class="fa fa-vk fa-2x"></i></li>
-                    <li class="wow animated zoomIn"><i class="fa fa-skype fa-2x"></i></li>
-                    <li class="wow animated zoomIn"><i class="fa fa-facebook fa-2x"></i></li>
-                </ul>
-                    
+                    <ul class="footer-button">
+
+                        <li class="wow animated zoomIn"><i class="fa fa-instagram fa-2x"></i></li>
+                        <li class="wow animated zoomIn"><i class="fa fa-github fa-2x"></i></li>
+                        <li class="wow animated zoomIn"><i class="fa fa-vk fa-2x"></i></li>
+                        <li class="wow animated zoomIn"><i class="fa fa-skype fa-2x"></i></li>
+                        <li class="wow animated zoomIn"><i class="fa fa-facebook fa-2x"></i></li>
+                    </ul>
+
                 </div>
                 <div class="row text-center">
-                    <div id="footer-logo" class=" wow animated fadeInDown">
-    				    <p>Copyright &copy;2016 Olena Maherovska</p>
-    				</div>
-				</div>
+                    <div id="footer-logo" class=" wow animated slideInUp">
+                        <p>Copyright &copy;2016 Olena Maherovska</p>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
-    
-    
+
+
 
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
 </body>
 
